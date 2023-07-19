@@ -2,3 +2,8 @@ body {
   font-family: "Saira Condensed";
   padding: 30px 60px;
 }
+
+a{
+  text-decoration: none;
+  color: black;
+}
