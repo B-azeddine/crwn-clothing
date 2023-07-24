@@ -12,6 +12,8 @@
 	font-family: 'Saira Condensed';
 	border: none;
 	cursor: pointer;
+	display: flex;
+	justify-content: center;
 
 	&:hover {
 		background-color: white;
@@ -19,12 +21,33 @@
 		border: 1px solid black;
 	}
 
-	&.google-sign-in{
+	&.google-sign-in {
 		background-color: #4285f4;
 		color: white;
-		&:hover{
+
+		&:hover {
 			background-color: #357ae8;
 			border: none;
 		}
 	}
+
+	&.inverted {
+		background-color: white;
+		color: black;
+		border: 1px solid black;
+		position: absolute;
+		top: 255px;
+
+		&:hover {
+			.image {
+				opacity: 0.8;
+			}
+			opacity: 0.7;
+			background-color: black;
+			color: white;
+			border: none;
+		}
+	}
 }
+
+
